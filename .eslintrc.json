@@ -1,3 +1,4 @@
 {
-  "extends": "next/core-web-vitals"
+  // ? we add prettier here so we make sure prettier and ESLINT doesnt conflict
+  "extends": ["next/core-web-vitals", "prettier"]
 }
