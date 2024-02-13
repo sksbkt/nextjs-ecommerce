@@ -13,9 +13,8 @@ model Product {
   imageUrl    String
   name        String
   price       Int
-  createAt    DateTime @default(now())
-  updateAt    DateTime @updatedAt
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 
-  // ? like this we connect this model to products in the database
   @@map("products")
 }
